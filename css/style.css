@@ -1,38 +1,103 @@
 @charset "utf-8";
 
 
+body {
+    margin:0;
+}
 li {
     list-style: none;
 }
 
 
 .wrap {
-
+    padding-top: 100px;
 }
 
 header {
-    height: 150px;
+    width: 100%;
+    height: 100px;
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
-    margin: auto 10%;
+    position: fixed;
+    top:0;
+    background:cornsilk;
+    transition: top 0.2s ease-in-out;
 }
 
+header h1 {
+    margin-left: 10%;
+}
 
 .navList {
     display: flex;
-    
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
 }
 .navList li {
     width: 100px;
-    height:20;
+    height:20px;
     
+}
+
+.subNav {
+    margin-right: 10%;
 }
 
 .subNav ul {
     display: flex;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
+
 }
-.subNav li {
-    width: 50px;
-    height:20px;
+.subNav li img{
+    width: 25px;
+    height: 25px;
+    padding : 5px;
+    box-sizing: border-box;
+}
+
+/* slide */
+.slide {
+    height: 500px;
+    background-image: url('../img/slide.png');
+}
+
+/* section_one  */
+.section_one {
+    height: 1000px;
+    background-color:blanchedalmond;
+}
+
+.left_section {
+    height:inherit;
+    width:700px;
+}
+
+.left_section ul{
+    
+}
+
+.left_section ul li{
+    /* height:inherit; */
+    width:100%;
+    height: 250px;
+    text-align: center;
+}
+
+
+
+/* contact */
+.contact {
+    height: 500px;
+    background-color:burlywood;
+}
+
+/* footer */
+.footer {
+    height: 50px;
+    background-color:cornsilk;
 }
