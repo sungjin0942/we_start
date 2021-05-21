@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+li {
+    list-style: none;
+}
+
+
+.wrap {
+
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: auto 10%;
+}
+
+
+.navList {
+    display: flex;
+    
+}
+.navList li {
+    width: 100px;
+    height:20;
+    
+}
+
+.subNav ul {
+    display: flex;
+}
+.subNav li {
+    width: 50px;
+    height:20px;
+}
